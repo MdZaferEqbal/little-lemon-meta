@@ -11,6 +11,10 @@ export default createGlobalStyle`
     box-sizing: border-box;
   };
 
+  html {
+    scroll-behavior: smooth;
+  };
+
   body {
     background-color: ${({ theme }) => theme.colors.white};
     color: ${({ theme }) => theme.colors.black};
